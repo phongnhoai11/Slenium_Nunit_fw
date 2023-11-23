@@ -8,6 +8,11 @@ namespace Tui_ToolQA.core.BaseTest
         protected IWebDriver driver;
         protected WebDriverWait wait;
 
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="driver">driver</param>
+        /// <param name="wait">wait</param>
         public PageBases(IWebDriver driver, WebDriverWait wait)
         {
             this.driver = driver;
